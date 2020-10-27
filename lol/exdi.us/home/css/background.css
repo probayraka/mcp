@@ -1,0 +1,309 @@
+/*@font-face{
+font-family: arial;
+font-weight: bold;}*/
+
+body {font-family: 'Montserrat', sans-serif; font-size: 15px; color:white}
+
+
+	h1 {font-family: 'Montserrat', sans-serif; font-size: 37px; color: white}
+	h2 {font-family: 'Montserrat', sans-serif; font-size: 25px; color: #00BF7F}
+	h3 {font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 25px; color: #00BF7F}
+	la {font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 25px; color: #00BF7F}
+	h4 {font-family: 'Montserrat', sans-serif; font-size: 20px; color: #D25F00}
+	lb {font-family: 'Montserrat', sans-serif; font-weight: bold; font-size: 20px; color: #D25F00}
+	h5 {font-family: 'Montserrat', sans-serif; font-size: 25px; color: #00B7BF}
+	
+
+
+
+body .mongolia1{
+	width:238px;
+	top:0px;
+	left:0px;
+	position:relative;
+}
+@media only screen and (min-width: 600px) {
+	body .mongolia1{
+		width:435px;
+		top:0px;
+		left:-269px;
+		position:relative;
+	}
+}
+
+body .world1{
+	width:238px;
+	left:0px;
+	top:25px;
+	position:relative;
+}
+
+@media only screen and (min-width: 600px) {
+	body .world1{
+		width:562px;
+	}
+}
+body .us1{
+	width:238px;
+	top:50px;
+	left:0px;
+	position:relative;
+}
+
+@media only screen and (min-width: 600px) {
+	body .us1{
+		width:562px;
+		top:-518px;
+		left:306px;
+		position:relative;
+	}
+}
+
+body center{
+	height:7	6px;
+}
+
+
+
+
+body .envi{
+	width:288px;
+	top:200px;
+	position:relative;
+	left:0px;
+}
+@media only screen and (min-width: 600px) {
+	body .envi{
+		width:288px;
+		top:36px;
+		position:relative;
+		left:-500px;
+	}
+}
+
+body .pm25{
+	width:337px;
+	top:-143px;
+	position:relative;
+	left:0px;
+}
+
+
+}
+body .covid19{
+	width:450px;
+	top:-200px;
+	left:510px;
+	position:relative;
+}
+@media only screen and (min-width: 600px) {
+	body .covid19{
+		width:374px;
+		top:-327px;
+		left:468px;
+		position:relative;
+	}
+}
+body .envi1{
+	width:397px;
+	top:200px;
+	position:relative;
+	left:0px;
+}
+@media only screen and (min-width: 600px) {
+	body .envi1{
+		width:397px;
+		top:24px;
+		position:relative;
+		left:-500px;
+	}
+}
+
+body .pm251{
+	width:347px;
+	top:-155px;
+	left:0px;
+	position:relative;
+}
+
+body .covid191{
+	width:367px;
+	top:24px;
+	left:0px;
+	position:relative;
+	}
+
+@media only screen and (min-width: 600px) {
+	body .covid191{
+		width:563px;
+		top:-331px;
+		left:510px;
+		position:relative;
+	}
+}
+
+
+#canvas{
+	top:-778px;
+	left:-843px;
+	position:relative;
+}
+
+
+
+body {
+ /*background-image: url("img/background.jp");*/
+ background-color: #222222;
+}
+
+table {
+	border-collapse: collapse;
+	width: 69%;
+	top: 30px;
+	position: relative;
+}
+  
+  td {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }  
+  
+  th {
+	border: 1px solid #ffffff;
+	text-align: left;
+	padding: 8px;
+	font-size: 18px;
+  }
+  
+  /* tr:nth-child(even) { */
+	/* background-color: #292929; */
+  /* } */
+.good td {
+	background-color: rgb(0, 160, 0);
+}
+.satis td {
+	background-color: rgb(0, 240, 0);
+	color: rgb(0, 0, 0)
+}
+.moder td {
+	background-color: rgb(236, 240, 0);
+	color: rgb(0, 0, 0)
+}
+.poor td {
+	background-color: rgb(240, 136, 0);
+	color: rgb(0, 0, 0)
+}
+.vpoor td {
+	background-color: rgb(255, 0, 0);
+	color: rgb(0, 0, 0)
+}
+.severe td {
+	background-color: rgb(148, 0, 0);
+	color: rgb(255, 255, 255)
+}
+
+.MnButton{
+    background:url(/static/img/mn.png) no-repeat;
+    cursor:pointer;
+    border:none;
+	width: 36px;
+	height: 18px;
+	top: 20px;
+	left:-20px;
+	position: relative;
+	float:right;
+}  
+
+
+
+.EnButton{
+    background:url(/static/img/en.png) no-repeat;
+    cursor:pointer;
+    border:none;
+	width: 36px;
+	height: 18px;
+	top: 20px;
+	left:-20px;
+	position: relative;
+	float:right;
+}
+
+.logout {
+	background-color: #1c87c9;
+	border: none;
+	color: white;
+	padding: 17px 31px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	}
+  
+a:hover {
+	background-color: rgb(0, 93, 136);
+}
+
+.Fan {
+	background-color: #1c87c9;
+	border: none;
+	color: white;
+	padding: 17px 31px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	}
+
+body .Fan{
+	position: relative;
+	top: 20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #1c87c9;
+	border: none;
+	color: white;
+	padding: 17px 31px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	}
+input:hover{
+	background-color: rgb(37, 37, 37);
+}
+input {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #2c2c2c;
+	width: 100%;
+	color: rgb(255, 255, 255);
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	}
+
+body form input[type=text]{
+	width:309px;
+}
+
+body form input[type=password]{
+	width:311px;
+}
+
+body form input[type=submit]{
+	width:312px;
+}
+	
+	
